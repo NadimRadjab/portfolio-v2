@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
+import Main from "../components/Main";
 import Navbar from "../components/Navbar";
+import Projects from "../components/Projects";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -20,18 +20,8 @@ const Home: NextPage = () => {
         />
       </Head>
       <Navbar />
-      <main className={styles.main}>
-        <div className="text-center">
-          <h2 className="align-middle">
-            Hi, I'm <span>Nadim</span>
-          </h2>
-          <h2>A React Native Developer</h2>
-        </div>
-        <p>
-          I'm a react native developer sepcializing in building exceptional
-          apps. Currently I'm focused on updating and imporiving my apps.
-        </p>
-      </main>
+      <Main />
+      <Projects />
     </div>
   );
 };

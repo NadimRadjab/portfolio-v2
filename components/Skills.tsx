@@ -25,7 +25,7 @@ const Skills = () => {
           </h2>
         </div>
         <div className="flex flex-col p-5">
-          <div className="w-full shadow-lg shadow-gray-600 h-auto rounded-xl relative flex flex-col md:p-3 p-10  m-10 group self-center bg-zinc-900">
+          <div className="w-full shadow-lg shadow-neutral-700  h-auto rounded-xl relative flex flex-col md:p-3 p-10  m-10 group self-center bg-zinc-900">
             <div className="mb-10 self-center">
               <h3 className="text-3xl text-gray-200">Front-end</h3>
             </div>
@@ -56,7 +56,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="w-full shadow-lg shadow-gray-600 h-auto rounded-xl relative flex flex-col items-center md:p-3 p-10 m-10 group self-center bg-zinc-900 ">
+          <div className="w-full shadow-lg shadow-neutral-700  h-auto rounded-xl relative flex flex-col items-center md:p-3 p-10 m-10 group self-center bg-zinc-900 ">
             <div className="mb-10 self-center">
               <h3 className="text-3xl text-gray-200">Back-end</h3>
             </div>
@@ -83,7 +83,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="w-full shadow-lg shadow-gray-600 h-auto rounded-xl relative flex flex-col items-center md:p-3 p-10  m-10 group self-center bg-zinc-900">
+          <div className="w-full shadow-lg shadow-neutral-700  h-auto rounded-xl relative flex flex-col items-center md:p-3 p-10  m-10 group self-center bg-zinc-900">
             <div className="mb-10 self-center">
               <h3 className="text-2xl text-gray-200">Miscellaneous</h3>
             </div>

@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import "tailwindcss/tailwind.css";
 import type { AppProps } from "next/app";
+import "../i18next";
 import Navbar from "../components/Navbar";
 
 function MyApp({ Component, pageProps }: AppProps) {

@@ -15,7 +15,7 @@ const Projects = () => {
           </h2>
         </div>
         <div className="grid md:grid-cols-2 gap-5">
-          <div className="bg-zinc-900 w-full shadow-lg shadow-gray-600 h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
+          <div className="bg-zinc-900 w-full shadow-lg shadow-neutral-700  h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
             <Image
               alt="Simple CV"
               src={simpleCV}
@@ -29,7 +29,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="bg-zinc-900 w-full shadow-lg shadow-gray-600 h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
+          <div className="bg-zinc-900 w-full shadow-lg shadow-neutral-700  h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
             <Image
               alt="PT-Manager"
               src={ptManager}
@@ -43,7 +43,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="bg-zinc-900 w-full shadow-lg shadow-gray-600 h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
+          <div className="bg-zinc-900 w-full shadow-lg shadow-neutral-700  h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
             <Image
               alt="Simple Invoice"
               src={simpleInvoice}
@@ -57,7 +57,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="bg-zinc-900 w-full shadow-lg shadow-gray-600 h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
+          <div className="bg-zinc-900 w-full shadow-lg shadow-neutral-700  h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
             b
           </div>
         </div>

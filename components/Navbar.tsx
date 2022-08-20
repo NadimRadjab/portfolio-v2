@@ -1,16 +1,37 @@
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlineMenuFold, AiOutlineClose } from "react-icons/ai";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [isHidden, setIsHidden] = useState(false);
+  useEffect(() => {
+    let lastScrollY = window.scrollY;
+    const handleShadow = () => {
+      if (lastScrollY < window.scrollY) {
+        setIsHidden(true);
+      } else {
+        setIsHidden(false);
+      }
+      lastScrollY = window.scrollY;
+    };
+
+    window.addEventListener("scroll", handleShadow);
+  }, []);
+
   const handleOpen = () => {
     setOpen(!open);
   };
   return (
-    <div className="fixed z-[100]  animate-[start-navbar_1.5s_ease-in-out] bg-transparent w-screen h-24  p-3 items-center  flex  shadow-xl shadow-zinc-900">
+    <div
+      className={
+        isHidden
+          ? `fixed z-[100] bg-transparent w-screen h-24  p-3 items-center flex transition duration-1000 ease-in-out translate-y-[-100%]`
+          : `fixed z-[100] bg-transparent w-screen h-24  p-3 items-center flex shadow-xl shadow-zinc-500 transition duration-1000 ease-in-out translate-y-[0%]`
+      }
+    >
       <ul className="m-4 ml-10 justify-self-center">
         <li className="text-lg">
-          <Link href="#projects">N.R</Link>
+          <Link href="/">N.R</Link>
         </li>
       </ul>
       <div className="p-4 items-center  w-5/6 justify-end flex">

@@ -9,11 +9,13 @@ const Projects = () => {
   return (
     <div className="w-full" id="projects">
       <div className="max-w-[1240px] mx-auto px-2 py-10">
-        <div className="my-10  border-b-2">
-          <h2 className="align-middle text-6xl uppercase">My Porjects</h2>
+        <div className="my-10 md:text-start text-center border-b-2 mx-10">
+          <h2 className="align-middle md:text-6xl text-4xl uppercase">
+            My Porjects
+          </h2>
         </div>
-        <div className="grid grid-cols-2 gap-5">
-          <div className="w-full shadow-lg shadow-gray-600 h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
+        <div className="grid md:grid-cols-2 gap-5">
+          <div className="bg-zinc-900 w-full shadow-lg shadow-gray-600 h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
             <Image
               alt="Simple CV"
               src={simpleCV}
@@ -27,7 +29,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="w-full shadow-lg shadow-gray-600 h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
+          <div className="bg-zinc-900 w-full shadow-lg shadow-gray-600 h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
             <Image
               alt="PT-Manager"
               src={ptManager}
@@ -41,7 +43,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="w-full shadow-lg shadow-gray-600 h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
+          <div className="bg-zinc-900 w-full shadow-lg shadow-gray-600 h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
             <Image
               alt="Simple Invoice"
               src={simpleInvoice}
@@ -55,7 +57,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="w-full shadow-lg shadow-gray-600 h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
+          <div className="bg-zinc-900 w-full shadow-lg shadow-gray-600 h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
             b
           </div>
         </div>

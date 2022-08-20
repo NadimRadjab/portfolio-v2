@@ -7,7 +7,7 @@ const Navbar = () => {
     setOpen(!open);
   };
   return (
-    <div className="fixed z-[100]  animate-[start-navbar_1.5s_ease-in-out] bg-transparent w-screen h-24  p-3 items-center  flex  shadow-xl shadow-zinc-900 transition ease-in-out delay-250  ">
+    <div className="fixed z-[100]  animate-[start-navbar_1.5s_ease-in-out] bg-transparent w-screen h-24  p-3 items-center  flex  shadow-xl shadow-zinc-900">
       <ul className="m-4 ml-10 justify-self-center">
         <li className="text-lg">
           <Link href="#projects">N.R</Link>

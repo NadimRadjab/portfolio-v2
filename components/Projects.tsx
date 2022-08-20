@@ -7,45 +7,55 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div className="h-screen w-full ">
-      <div className="my-10 mx-20 border-b-4 max-w-[1240px]">
-        <h2 className="align-middle text-8xl uppercase">My Porjects</h2>
-      </div>
-      <div className="max-w-[1440px] w-full h-full mx-auto justify-center flex flex-col ">
+    <div className="w-full" id="projects">
+      <div className="max-w-[1240px] mx-auto px-2 py-10">
+        <div className="my-10  border-b-2">
+          <h2 className="align-middle text-6xl uppercase">My Porjects</h2>
+        </div>
         <div className="grid grid-cols-2 gap-5">
-          <div className="max-w-9xl shadow-lg shadow-gray-600 h-[540px] rounded-xl cursor-pointer relative flex flex-col justify-center">
+          <div className="w-full shadow-lg shadow-gray-600 h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
             <Image
-              alt="Vercel logo"
+              alt="Simple CV"
               src={simpleCV}
-              layout="fill"
-              className="rounded-xl transition-all ease-in delay-100 hover:opacity-[0.13] z-20 hover:z-10 "
+              className="rounded-xl group-hover:opacity-10"
             />
-            <div className="w-[100%] flex items-center flex-col">
-              <p className="text-3xl m-5">Simple CV</p>
-              <div className="w-[30%] h-14 rounded-xl  flex justify-center items-center transition ease-in-out delay-150 bg-emerald-700 hover:-translate-y-1 hover:scale-110 duration-300 z-10 ">
-                <Link href="">
-                  <p className="text-xl">More Info</p>
+            <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex-col hidden group-hover:block">
+              <div className="w-[140px] h-[140px] rounded-full  flex justify-center items-center bg-white group-hover:animate-[view-button_0.5s_ease-in-out]">
+                <Link href="/">
+                  <p className="text-xl text-gray-800">View</p>
                 </Link>
               </div>
             </div>
           </div>
-          <div className="max-w-9xl h-[540px]  shadow-lg shadow-gray-600 rounded-md cursor-pointer relative">
+          <div className="w-full shadow-lg shadow-gray-600 h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
             <Image
-              alt="Vercel logo"
+              alt="PT-Manager"
               src={ptManager}
-              layout="fill"
-              className="rounded-xl transition-opacity ease-in delay-100 hover:opacity-[0.33]"
+              className="rounded-xl group-hover:opacity-10"
             />
+            <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex-col hidden group-hover:block">
+              <div className="w-[130px] h-[130px] rounded-full  flex justify-center items-center bg-white group-hover:animate-[view-button_0.5s_ease-in-out]">
+                <Link href="/">
+                  <p className="text-xl text-gray-800">View</p>
+                </Link>
+              </div>
+            </div>
           </div>
-          <div className="max-w-9xl shadow-lg shadow-gray-600 h-[540px]  rounded-md cursor-pointer relative">
+          <div className="w-full shadow-lg shadow-gray-600 h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
             <Image
-              alt="Vercel logo"
+              alt="Simple Invoice"
               src={simpleInvoice}
-              layout="fill"
-              className="rounded-xl transition-opacity ease-in delay-100 hover:opacity-[0.33]"
+              className="rounded-xl group-hover:opacity-10"
             />
+            <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex-col hidden group-hover:block">
+              <div className="w-[130px] h-[130px] rounded-full  flex justify-center items-center bg-white group-hover:animate-[view-button_0.5s_ease-in-out]">
+                <Link href="/">
+                  <p className="text-xl text-gray-800">View</p>
+                </Link>
+              </div>
+            </div>
           </div>
-          <div className="max-w-9xl shadow-lg h-[540px]  shadow-gray-600 rounded-md cursor-pointer">
+          <div className="w-full shadow-lg shadow-gray-600 h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 ">
             b
           </div>
         </div>

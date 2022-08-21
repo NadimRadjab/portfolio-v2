@@ -6,43 +6,42 @@ import appStoreImage from "../assets/images/appStoreImage.png";
 import playStoreImage from "../assets/images/playStoreImage.png";
 import { AiFillGithub } from "react-icons/ai";
 import Slider from "../components/UI/Slider";
-import { simpleCVImageData } from "../data/imagesSeeds";
-const SimpleCV = () => {
+import { ptManagerImageData } from "../data/imagesSeeds";
+const SimpleInvoice = () => {
   const { t } = useTranslation();
   return (
     <div className="w-full 2xl:flex 2xl:justify-center h-screen">
       <div className="max-w-[1240px] w-full h-full ">
         <div className="w-full h-full grid lg:grid-cols-2 gap-10 grid-cols-1 justify-items-center items-center my-5">
           <div className="max-w-[400px] align-middle  flex justify-center">
-            <Slider sliderData={simpleCVImageData} />
+            <Slider sliderData={ptManagerImageData} />
           </div>
           <div className="lg:text-start text-center flex flex-col items-center lg:block">
             <h2 className="text-4xl mb-10 ">{t("overview")}</h2>
             <p className="lg:text-xl text-lg max-w-[95%]">
-              {t("simpleCvText")}
+              {t("ptManagerText")}
             </p>
           </div>
           <div className="bg-zinc-900 shadow-lg shadow-neutral-700  h-auto rounded-xl justify-center p-3 flex flex-col ">
             <h2 className="text-2xl mb-10 self-center">{t("technologies")}</h2>
             <ul className="text-white mx-10 text-lg list-disc ">
               <li>React Native</li>
-              <li>Expo Bare Workflow</li>
+              <li>Expo</li>
               <li>React Navigation</li>
               <li>Redux</li>
               <li>Firebase</li>
               <li>RevenueCat</li>
-              <li>NativeBase</li>
             </ul>
           </div>
           <div className="bg-zinc-900 xl:w-[100%]  shadow-lg shadow-neutral-700   h-auto rounded-xl grid grid-cols-2 gap-12 p-10 md:mx-20 mx-2">
-            <Link href="https://apps.apple.com/app/simple-cv/id1600041611">
+            <Link href="https://apps.apple.com/app/simple-invoice-invoice-maker/id1629304943">
               <Image
                 alt="store-image"
                 className="cursor-pointer lg:hover:opacity-70 active:opacity-70 transition duration-300 ease-in-out"
                 src={appStoreImage}
               />
             </Link>
-            <Link href="https://play.google.com/store/apps/details?id=com.nr.cop.apps.simplecv">
+            <Link href="https://play.google.com/store/apps/details?id=nr.cop.apps.simple.invoice">
               <Image
                 alt="store-image"
                 className="cursor-pointer lg:hover:opacity-70 active:opacity-70 transition duration-300 ease-in-out"
@@ -60,4 +59,4 @@ const SimpleCV = () => {
   );
 };
 
-export default SimpleCV;
+export default SimpleInvoice;

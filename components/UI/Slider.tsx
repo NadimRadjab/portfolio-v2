@@ -22,7 +22,7 @@ const Slider = (props: Props) => {
       <FaArrowAltCircleLeft
         onClick={prevSlide}
         size={30}
-        className="absolute top-[50%] left-[5px] z-10 text-black cursor-pointer"
+        className="absolute top-[50%] left-[5px] z-10 text-black/90 cursor-pointer"
       />
       {props.sliderData.map((slide, index) => {
         return (
@@ -43,7 +43,7 @@ const Slider = (props: Props) => {
       <FaArrowAltCircleRight
         onClick={nextSlide}
         size={30}
-        className="absolute top-[50%] right-[5px]  z-10 text-black cursor-pointer"
+        className="absolute top-[50%] right-[5px]  z-10 text-black/90  cursor-pointer"
       />
     </div>
   );

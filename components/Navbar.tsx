@@ -41,7 +41,7 @@ const Navbar = () => {
     >
       <div className="m-4 ml-10">
         <Link href="/">
-          <h2 className="text-transparent transition ease-in-out duration-300 md:text-6xl text-4xl cursor-pointer bg-clip-text bg-gradient-to-r from-zinc-300 to-zinc-100 hover:text-sky-50">
+          <h2 className="text-transparent transition ease-in-out duration-300 md:text-6xl text-4xl cursor-pointer bg-clip-text bg-gradient-to-r from-zinc-300 to-zinc-100 md:hover:text-sky-50 active:text-sky-50">
             N.R
           </h2>
         </Link>
@@ -49,19 +49,19 @@ const Navbar = () => {
       <div className="p-4  w-5/6 justify-end flex">
         <ul className="hidden md:flex mr-14 cursor-pointer ">
           <Link href="/#projects">
-            <li className="text-xl m-2 text-transparent transition ease-in-out duration-300 bg-clip-text bg-gradient-to-r from-zinc-300 to-zinc-100 hover:text-sky-50">
+            <li className="text-xl m-2 text-transparent transition ease-in-out duration-300 bg-clip-text bg-gradient-to-r from-zinc-300 to-zinc-100 md:hover:text-sky-50 active:text-sky-50">
               {t("projects")}
             </li>
           </Link>
 
           <Link href="/#skills">
-            <li className="text-xl m-2 text-transparent transition ease-in-out duration-300 bg-clip-text bg-gradient-to-r from-zinc-300 to-zinc-100 hover:text-sky-50">
+            <li className="text-xl m-2 text-transparent transition ease-in-out duration-300 bg-clip-text bg-gradient-to-r from-zinc-300 to-zinc-100 md:hover:text-sky-50 active:text-sky-50">
               {t("skills")}
             </li>
           </Link>
 
           <Link href="/#contact">
-            <li className="text-xl m-2 text-transparent transition ease-in-out duration-300  bg-clip-text bg-gradient-to-r from-zinc-300 to-zinc-100">
+            <li className="text-xl m-2 text-transparent transition ease-in-out duration-300 bg-clip-text bg-gradient-to-r from-zinc-300 to-zinc-100 md:hover:text-sky-50 active:text-sky-50">
               {t("contact")}
             </li>
           </Link>
@@ -90,13 +90,13 @@ const Navbar = () => {
           <div className="mt-5">
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <h2 className="text-transparent transition ease-in-out duration-300 text-5xl cursor-pointer bg-clip-text bg-gradient-to-r from-zinc-300 to-zinc-100 hover:text-sky-50">
+                <h2 className="text-transparent transition ease-in-out duration-300 text-5xl cursor-pointer bg-clip-text bg-gradient-to-r from-zinc-300 to-zinc-100 md:hover:text-sky-50 active:text-sky-50">
                   N.R
                 </h2>
               </Link>
               <div
                 onClick={handleOpen}
-                className="w-[44px] h-[44px] cursor-pointer rounded-full shadow-lg flex justify-center items-center shadow-zinc-800 bg-gradient-to-r from-[#5651] to-zinc-800 mx-4 hover:bg-sky-50 hover:scale-125 transition ease-in-out duration-300"
+                className="w-[44px] h-[44px] cursor-pointer rounded-full shadow-lg flex justify-center items-center shadow-zinc-800 bg-gradient-to-r from-[#5651] to-zinc-800 mx-4 md:hover:bg-sky-50 md:hover:scale-125 active:bg-sky-50 transition ease-in-out duration-300"
               >
                 <AiOutlineClose size={16} />
               </div>
@@ -110,7 +110,7 @@ const Navbar = () => {
               <Link href="/#projects">
                 <li
                   onClick={handleOpen}
-                  className="text-3xl m-20 text-transparent transition ease-in-out duration-300  bg-clip-text bg-gradient-to-r from-zinc-300 to-zinc-100 hover:text-sky-50"
+                  className="text-2xl md:text-3xl m-20 text-transparent transition ease-in-out duration-300  bg-clip-text bg-gradient-to-r from-zinc-300 to-zinc-100 md:hover:text-sky-50 active:text-sky-50"
                 >
                   {t("projects")}
                 </li>
@@ -119,7 +119,7 @@ const Navbar = () => {
               <Link href="/#skills">
                 <li
                   onClick={handleOpen}
-                  className="text-3xl m-20 text-transparent transition ease-in-out duration-300  bg-clip-text bg-gradient-to-r from-zinc-300 to-zinc-100 hover:text-sky-50r"
+                  className="text-2xl md:text-3xl m-20 text-transparent transition ease-in-out duration-300  bg-clip-text bg-gradient-to-r from-zinc-300 to-zinc-100 md:hover:text-sky-50 active:text-sky-50"
                 >
                   {t("skills")}
                 </li>
@@ -128,7 +128,7 @@ const Navbar = () => {
               <Link href="/#contact">
                 <li
                   onClick={handleOpen}
-                  className="text-3xl m-20 text-transparent transition ease-in-out duration-300  bg-clip-text bg-gradient-to-r from-zinc-300 to-zinc-100 hover:text-sky-50"
+                  className="text-2xl md:text-3xl m-20 text-transparent transition ease-in-out duration-300  bg-clip-text bg-gradient-to-r from-zinc-300 to-zinc-100 md:hover:text-sky-50 active:text-sky-50"
                 >
                   {t("contact")}
                 </li>

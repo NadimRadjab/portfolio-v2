@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
-import { AiFillGithub, AiOutlineMail } from "react-icons/ai";
 import { TbArrowBigUpLines } from "react-icons/tb";
 import { useTranslation } from "react-i18next";
+import ContactButton from "./UI/ContactButton";
 const Contact = () => {
   const { t, i18n } = useTranslation();
   return (
@@ -24,16 +24,11 @@ const Contact = () => {
             <div className="text-center">
               <h3 className="md:text-3xl my-10  text-xl">{t("reachMe")}</h3>
               <div className="my-24 flex justify-center">
-                <div className="w-[64px] h-[64px] cursor-pointer rounded-full shadow-lg flex justify-center items-center shadow-zinc-800 bg-gradient-to-r from-[#5651] to-zinc-800 mx-4 hover:bg-sky-50 hover:scale-125 transition ease-in-out duration-300">
-                  <Link href="https://github.com/NadimRadjab">
-                    <AiFillGithub size={30} />
-                  </Link>
-                </div>
-                <div className="w-[64px] h-[64px] cursor-pointer rounded-full shadow-lg flex justify-center items-center shadow-zinc-800 bg-gradient-to-r from-[#5651] to-zinc-800 mx-4 hover:bg-sky-50 hover:scale-125 transition ease-in-out duration-300">
-                  <Link href="mailto:nadimradjab.work@gmail.com">
-                    <AiOutlineMail size={30} />
-                  </Link>
-                </div>
+                <ContactButton link="https://github.com/NadimRadjab" />
+                <ContactButton
+                  isEmail
+                  link="mailto:nadimradjab.work@gmail.com"
+                />
               </div>
               <h3 className="md:text-3xl text-xl my-10">{t("sendMessage")}</h3>
             </div>
@@ -94,7 +89,7 @@ const Contact = () => {
               </div>
               <input
                 value={t("submit")}
-                className="w-[85%] self-center rounded-xl h-12 my-10 text-xl shadow-lg shadow-neutral-700 cursor-pointer bg-gradient-to-r from-[#5651] to-zinc-800 hover:bg-sky-50 transition duration-300 ease-in-out "
+                className="w-[85%] self-center rounded-xl h-12 my-10 text-xl shadow-lg shadow-neutral-700 cursor-pointer bg-gradient-to-r from-[#5651] to-zinc-800 active::bg-sky-50 md:hover:bg-sky-50 transition duration-300 ease-in-out "
                 type="submit"
               />
               <input
@@ -105,7 +100,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="my-20 self-center w-[74px] h-[74px] cursor-pointer rounded-full shadow-lg flex justify-center items-center shadow-zinc-800 bg-gradient-to-r from-[#5651] to-zinc-800 mx-4 hover:bg-sky-50 hover:scale-125 transition ease-in-out duration-300 ">
+        <div className="my-20 self-center w-[74px] h-[74px] cursor-pointer rounded-full shadow-lg flex justify-center items-center shadow-zinc-800 bg-gradient-to-r from-[#5651] to-zinc-800 mx-4 active:bg-sky-50 md:hover:bg-sky-50 md:hover:scale-125 transition ease-in-out duration-300 ">
           <Link href="/">
             <TbArrowBigUpLines className="animate-bounce" size={34} />
           </Link>

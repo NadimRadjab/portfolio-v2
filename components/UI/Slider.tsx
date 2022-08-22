@@ -16,7 +16,6 @@ const Slider = (props: Props) => {
   const prevSlide = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
-  console.log(props.width);
   if (!Array.isArray(props.sliderData) || props.sliderData.length <= 0) {
     return null;
   }
@@ -41,7 +40,11 @@ const Slider = (props: Props) => {
             key={index}
           >
             {index === current && (
-              <Image src={slide.image} alt="Simple CV" className="rounded-lg" />
+              <Image
+                src={slide.image}
+                alt="Slide Images"
+                className="rounded-lg"
+              />
             )}
           </div>
         );

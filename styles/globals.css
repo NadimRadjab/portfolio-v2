@@ -6,7 +6,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: monospace;
+  font-family: monospace, serif, sans-serif;
   scroll-behavior: smooth;
 
   }

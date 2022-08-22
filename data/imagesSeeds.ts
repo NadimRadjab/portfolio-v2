@@ -14,8 +14,8 @@ import simpleInvoice3 from "../assets/images/Simple Invoice/simpleInvoice3.png";
 import simpleInvoice4 from "../assets/images/Simple Invoice/simpleInvoice4.png";
 import simpleInvoice5 from "../assets/images/Simple Invoice/simpleInvoice5.png";
 import odinBook1 from "../assets/images/OdinBook/odinBook1.png";
-import odinBook2 from "../assets/images/OdinBook/odinBook2.png";
-import odinBook3 from "../assets/images/OdinBook/odinBook3.png";
+import odinBook2 from "../assets/images/OdinBook/odinbook2.png";
+import odinBook3 from "../assets/images/OdinBook/odinbook3.png";
 export const simpleCVImageData = [
   { image: simpleCV3 },
   { image: simpleCV1 },

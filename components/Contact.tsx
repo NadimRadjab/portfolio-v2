@@ -42,7 +42,11 @@ const Contact = () => {
             data-aos="slide-left"
             className="bg-zinc-900 w-full shadow-lg shadow-neutral-700 h-auto rounded-xl flex flex-col p-4"
           >
-            <form className="flex flex-col">
+            <form
+              action="https://formsubmit.co/nadimradjab.work@gmail.com"
+              method="POST"
+              className="flex flex-col"
+            >
               <div className="flex md:flex-row flex-col w-[100%]">
                 <div className="md:w-[50%]">
                   <p className="text-xl my-5">{t("name")}</p>
@@ -92,6 +96,11 @@ const Contact = () => {
                 value={t("submit")}
                 className="w-[85%] self-center rounded-xl h-12 my-10 text-xl shadow-lg shadow-neutral-700 cursor-pointer bg-gradient-to-r from-[#5651] to-zinc-800 hover:bg-sky-50 transition duration-300 ease-in-out "
                 type="submit"
+              />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://nadimradjab.com/form-submit"
               />
             </form>
           </div>

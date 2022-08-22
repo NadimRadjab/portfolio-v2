@@ -20,7 +20,7 @@ const OdinBook = () => {
               {t("odinBookText")}
             </p>
           </div>
-          <div className="bg-zinc-900 shadow-lg shadow-neutral-700  h-auto rounded-xl justify-center p-3 flex flex-col ">
+          <div className="bg-zinc-900 shadow-lg shadow-neutral-700 md:w-[50%] w-[80%]  h-auto rounded-xl p-3 flex flex-col ">
             <h2 className="text-2xl mb-10 self-center">{t("technologies")}</h2>
             <ul className="text-white mx-10 text-lg list-disc ">
               <li>TypeScript</li>
@@ -31,18 +31,22 @@ const OdinBook = () => {
               <li>Socket.IO</li>
               <li>Redux</li>
               <li>Cloudinary</li>
+              <li>Cypress</li>
               <li>Material-UI</li>
             </ul>
           </div>
-          <div className="bg-zinc-900 xl:w-[100%]  shadow-lg shadow-neutral-700   h-auto rounded-xl grid grid-cols-2 gap-12 p-10 md:mx-20 mx-2">
-            <div className="flex col-span-2 justify-center items-center w-[100%] md:h-[64px] h-[58px] rounded-xl shadow-lg  shadow-zinc-800 bg-gray-500 mx-4   transition ease-in-out duration-300">
-              <p className="text-lg mx-2">GitHub</p>
-              <AiFillGithub size={30} />
-            </div>
-            <div className="flex col-span-2 justify-center items-center w-[100%] md:h-[64px] h-[58px] rounded-xl shadow-lg  shadow-zinc-800 bg-gray-500 mx-4   transition ease-in-out duration-300">
-              <p className="text-lg mx-2">Demo</p>
-              <AiFillGithub size={30} />
-            </div>
+          <div className="bg-zinc-900 xl:w-[100%]  shadow-lg shadow-neutral-700   h-auto rounded-xl grid grid-cols-2 gap-5 p-10 md:mx-20 mx-2">
+            <Link href="https://github.com/NadimRadjab/OdinBook-Client">
+              <div className="cursor-pointer hover:bg-sky-50 flex  justify-center items-center w-[100%] md:h-[64px] h-[58px] rounded-xl shadow-lg  shadow-zinc-800 bg-gradient-to-r from-[#5651] to-zinc-800 mx-4   transition ease-in-out duration-300">
+                <p className="text-lg mx-2">GitHub</p>
+                <AiFillGithub size={30} />
+              </div>
+            </Link>
+            <Link href="https://odin-book-client.netlify.app/login">
+              <div className="cursor-pointer hover:bg-sky-50 flex justify-center items-center w-[100%] md:h-[64px] h-[58px] rounded-xl shadow-lg  shadow-zinc-800 bg-gradient-to-r from-[#5651] to-zinc-800 mx-4   transition ease-in-out duration-300">
+                <p className="text-lg mx-2 uppercase">Demo</p>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

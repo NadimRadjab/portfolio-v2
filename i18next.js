@@ -33,6 +33,8 @@ i18n.use(initReactI18next).init({
         simpleInvoiceText: `Simple Invoice is an app made for freelancers and small business owners to help them manage their clients and create invoices. The app allows the user to create invoices, estimates, clients, products, and appointments. The user can change the currency symbol and time format. The app allows the user to style the invoices by editing the text font, text colors, margins, and borders.`,
         odinBookText:
           "The OdinBook is a full-stack web app inspired by Facebook. Users can create an account, make a post, like a post, make comments  create a post with images, adds friends edit the profile image, and live chat with other users.",
+        thankYou: "Thank you for your submission.",
+        goBack: "go back",
       },
     },
     de: {
@@ -66,6 +68,8 @@ i18n.use(initReactI18next).init({
         simpleInvoiceText: `Simple Invoice ist eine App für Freiberufler und Kleinunternehmer, die ihnen hilft, ihre Kunden zu verwalten und Rechnungen zu erstellen. Die App ermöglicht es dem Benutzer, Rechnungen, Kostenvoranschläge, Kunden, Produkte und Termine zu erstellen. Der Benutzer kann das Währungssymbol und das Zeitformat ändern. Die App ermöglicht es dem Benutzer, die Rechnungen zu gestalten, indem er die Schriftart, Textfarben, Ränder und Rahmen bearbeitet.`,
         odinBookText:
           "Das OdinBook ist eine von Facebook inspirierte Full-Stack-Web-App. Benutzer können ein Konto erstellen, einen Beitrag erstellen, einen Beitrag liken, Kommentare abgeben einen Beitrag mit Bildern erstellen, Freunde hinzufügen, das Profilbild bearbeiten, und Live-Chat mit anderen Benutzern.",
+        thankYou: "Danke für deine Nachricht.",
+        goBack: "Zurück",
       },
     },
   },

@@ -14,7 +14,7 @@ const SimpleCV = () => {
       <div className="max-w-[1240px] w-full h-full ">
         <div className="w-full h-full grid lg:grid-cols-2 gap-10 grid-cols-1 justify-items-center items-center my-5">
           <div className="max-w-[400px] align-middle  flex justify-center">
-            <Slider sliderData={simpleCVImageData} />
+            <Slider xlWidth="60%" width="50%" sliderData={simpleCVImageData} />
           </div>
           <div className="lg:text-start text-center flex flex-col items-center lg:block">
             <h2 className="text-4xl mb-10 ">{t("overview")}</h2>
@@ -26,6 +26,7 @@ const SimpleCV = () => {
             <h2 className="text-2xl mb-10 self-center">{t("technologies")}</h2>
             <ul className="text-white mx-10 text-lg list-disc ">
               <li>React Native</li>
+              <li>TypeScript</li>
               <li>Expo Bare Workflow</li>
               <li>React Navigation</li>
               <li>Redux</li>

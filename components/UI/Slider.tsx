@@ -4,6 +4,8 @@ import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
 interface Props {
   sliderData: { image: StaticImageData }[];
+  xlWidth: string;
+  width: string;
 }
 const Slider = (props: Props) => {
   const [current, setCurrent] = useState(0);
@@ -14,11 +16,15 @@ const Slider = (props: Props) => {
   const prevSlide = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
+  console.log(props.width);
   if (!Array.isArray(props.sliderData) || props.sliderData.length <= 0) {
     return null;
   }
+
   return (
-    <div className="relative  2xl:w-[60%] w-[50%] flex justify-center items-center bg-zinc-800  shadow-lg shadow-neutral-700  h-auto rounded-xl  p-3  ">
+    <div
+      className={`relative 2xl:w-[${props.xlWidth}] w-[${props.width}] flex justify-center items-center bg-zinc-800  shadow-lg shadow-neutral-700  h-auto rounded-xl  p-3 `}
+    >
       <FaArrowAltCircleLeft
         onClick={prevSlide}
         size={30}

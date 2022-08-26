@@ -45,7 +45,7 @@ i18n.use(initReactI18next).init({
         hello: "Hallo ich bin",
         subtitle: "React Native Entwickler",
         mainText:
-          "Ich bin ein React Native Entwickler aus Deutschland NRW. Derzeit konzentriere ich mich auf die Aktualisierung meiner Apps und die Verbesserung meiner nativen Reaktionsfähigkeiten.",
+          "Ich bin ein React Native Entwickler aus Deutschland NRW. Derzeit konzentriere ich mich auf die Aktualisierung meiner Apps und die Verbesserung meiner React Native Fähigkeiten.",
         myProjects: "Meine Arbeit",
         view: "Ansehen",
         whatIDo: "WAS ICH TUN KANN",

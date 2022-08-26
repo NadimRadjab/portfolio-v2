@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const FormSubmit = () => {
   const { t } = useTranslation();
   return (
-    <div className="w-full h-screen">
+    <div className="w-full h-screen flex justify-center">
       <div className="max-w-[1240px] w-full h-full text-center justify-center flex flex-col">
         <h2 className="md:text-6xl text-3xl">{t("thankYou")}</h2>
         <Link href="/">

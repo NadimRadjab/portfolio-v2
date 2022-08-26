@@ -7,11 +7,9 @@ import react from "../assets/images/Skills/Front-end/react.png";
 import express from "../assets/images/Skills/Back-end/express.png";
 import nodeJs from "../assets/images/Skills/Back-end/nodeJs.png";
 import mongodb from "../assets/images/Skills/Back-end/mongodb.png";
-import socket from "../assets/images/Skills/Back-end/socket.png";
 import expo from "../assets/images/Skills/Miscellaneous/expo.png";
 import firebase from "../assets/images/Skills/Miscellaneous/firebase.png";
 import git from "../assets/images/Skills/Miscellaneous/git.png";
-import github from "../assets/images/Skills/Miscellaneous/github.png";
 import npm from "../assets/images/Skills/Miscellaneous/npm.png";
 import redux from "../assets/images/Skills/Miscellaneous/redux.png";
 import { useTranslation } from "react-i18next";
@@ -39,7 +37,7 @@ const Skills = () => {
             </div>
             <div
               data-aos="flip-up"
-              className="grid lg:grid-cols-6 grid-cols-3 gap-10"
+              className="grid lg:grid-cols-5 grid-cols-3 gap-10"
             >
               <div className="flex flex-col justify-center items-center cursor-pointer transition ease-out duration-500 hover:-translate-y-2 md:w-[85%] w-[50%]">
                 <Image alt="html" src={html} />
@@ -53,10 +51,7 @@ const Skills = () => {
                 <Image alt="js" src={js} />
                 <p className="text-md text-gray-200">JS</p>
               </div>
-              <div className="flex flex-col justify-center items-center cursor-pointer transition ease-out duration-500 hover:-translate-y-2 md:w-[85%] w-[50%]">
-                <Image alt="ts" src={ts} />
-                <p className="text-md text-gray-200">TS</p>
-              </div>
+
               <div className="flex flex-col justify-center items-center cursor-pointer transition ease-out duration-500 hover:-translate-y-2 md:w-[85%] w-[50%]">
                 <Image alt="react" src={react} />
                 <p className="text-md text-gray-200">React</p>
@@ -74,7 +69,7 @@ const Skills = () => {
             <div className="mb-10 self-center">
               <h3 className="text-3xl text-gray-200">Back-end</h3>
             </div>
-            <div className="grid lg:grid-cols-5 grid-cols-3 gap-10">
+            <div className="grid lg:grid-cols-3 grid-cols-3 gap-10">
               <div className="flex flex-col justify-center items-center cursor-pointer transition ease-out duration-500 hover:-translate-y-2 md:w-[85%] w-[50%]">
                 <Image alt="nodeJs" src={nodeJs} />
                 <p className="text-md text-gray-200">NodeJs</p>
@@ -89,12 +84,6 @@ const Skills = () => {
                 <Image alt="mongodb" src={mongodb} />
                 <p className="text-md text-gray-200">MongoDB</p>
               </div>
-              <div className="flex flex-col justify-center items-center cursor-pointer transition ease-out duration-500 hover:-translate-y-2 md:w-[85%] w-[50%]">
-                <div className="md:w-[96px]">
-                  <Image alt="socket" src={socket} />
-                </div>
-                <p className="text-md text-gray-200">Socket.IO</p>
-              </div>
             </div>
           </div>
           <div
@@ -106,8 +95,8 @@ const Skills = () => {
             </div>
             <div className="grid lg:grid-cols-6 grid-cols-3 gap-10">
               <div className="flex flex-col justify-center items-center cursor-pointer transition ease-out duration-500 hover:-translate-y-2 md:w-[85%] w-[50%]">
-                <Image alt="github" src={github} />
-                <p className="text-md text-gray-200">GitHub</p>
+                <Image alt="ts" src={ts} />
+                <p className="text-md text-gray-200">TS</p>
               </div>
               <div className="flex flex-col justify-center items-center cursor-pointer transition ease-out duration-500 hover:-translate-y-2 md:w-[85%] w-[50%]">
                 <div>
@@ -129,7 +118,7 @@ const Skills = () => {
                 <div>
                   <Image alt="redux" src={redux} />
                 </div>
-                <p className="text-md text-gray-200">Firebase</p>
+                <p className="text-md text-gray-200">Redux</p>
               </div>
               <div className="flex flex-col justify-center items-center cursor-pointer transition ease-out duration-500 hover:-translate-y-2 md:w-[85%] w-[50%]">
                 <div>

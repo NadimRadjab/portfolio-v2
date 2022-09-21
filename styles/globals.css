@@ -12,6 +12,7 @@ body {
   background-color: rgb(19, 18, 23);
 
   }
+  
   body::before {
     display:block;
     content: '';

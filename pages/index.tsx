@@ -3,7 +3,6 @@ import Head from "next/head";
 import { useEffect } from "react";
 import Contact from "../components/Contact";
 import Main from "../components/Main";
-import Navbar from "../components/Navbar";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import styles from "../styles/Home.module.css";

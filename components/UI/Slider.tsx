@@ -41,8 +41,6 @@ const Slider = (props: Props) => {
           >
             {index === current && (
               <Image
-                priority={true}
-                loading="eager"
                 src={slide.image}
                 alt="Slide Images"
                 className="rounded-lg"

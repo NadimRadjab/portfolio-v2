@@ -10,7 +10,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 const Home: NextPage = () => {
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 1500, once: true });
   }, []);
   return (
     <div className={styles.container}>

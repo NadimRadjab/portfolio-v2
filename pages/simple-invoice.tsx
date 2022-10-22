@@ -38,7 +38,7 @@ const SimpleInvoice = () => {
               <li>RevenueCat</li>
             </ul>
           </div>
-          <div className="bg-zinc-900 xl:w-[100%]  shadow-lg shadow-neutral-700   h-auto rounded-xl grid grid-cols-2 gap-12 p-10 md:mx-20 mx-2">
+          <div className="bg-zinc-900 xl:w-[100%]  shadow-lg shadow-neutral-700 place-items-center  h-auto rounded-xl grid grid-cols-2 gap-12 p-10 md:mx-20 mx-2">
             <Link href="https://apps.apple.com/app/simple-invoice-invoice-maker/id1629304943">
               <Image
                 alt="store-image"

@@ -35,7 +35,7 @@ const OdinBook = () => {
               <li>Material-UI</li>
             </ul>
           </div>
-          <div className="bg-zinc-900 xl:w-[100%]  shadow-lg shadow-neutral-700   h-auto rounded-xl grid grid-cols-2 gap-5 p-10 md:mx-20 mx-2">
+          <div className="bg-zinc-900 xl:w-[100%]  shadow-lg shadow-neutral-700  place-items-center h-auto rounded-xl grid grid-cols-2 gap-5 p-10 md:mx-20 mx-2">
             <Link href="https://github.com/NadimRadjab/OdinBook-Client">
               <div className="cursor-pointer hover:bg-sky-50 flex  justify-center items-center w-[100%] md:h-[64px] h-[58px] rounded-xl shadow-lg  shadow-zinc-800 bg-gradient-to-r from-[#5651] to-zinc-800 mx-4   transition ease-in-out duration-300">
                 <p className="text-lg mx-2">GitHub</p>

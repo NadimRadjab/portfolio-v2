@@ -22,7 +22,7 @@ const ProjectItem = (props: Props) => {
       />
       <Link href={props.link}>
         <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex-col hidden group-hover:block">
-          <div className="w-[140px] h-[140px] rounded-full  flex justify-center items-center bg-white group-hover:animate-[view-button_0.5s_ease-in-out]">
+          <div className="w-[140px] h-[140px] rounded-full flex justify-center items-center bg-white group-hover:animate-[view-button_0.5s_ease-in-out]">
             <p className="text-xl text-gray-800">{t("view")}</p>
           </div>
         </div>

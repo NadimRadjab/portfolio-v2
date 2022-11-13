@@ -12,7 +12,7 @@ import { simpleCVWebsiteImageData } from "../data/imagesSeeds";
 const SimpleCV = () => {
   const { t } = useTranslation();
   return (
-    <div className="w-full 2xl:flex 2xl:justify-center ">
+    <div className="w-full lg:flex lg:justify-center ">
       <div className="max-w-[1240px] w-full h-full py-10 ">
         <div>
           <div className="w-full h-full grid lg:grid-cols-2 gap-10 grid-cols-1 justify-items-center items-center my-5">

@@ -42,6 +42,7 @@ const Slider = (props: Props) => {
             {index === current && (
               <Image
                 src={slide.image}
+                placeholder="blur"
                 alt="Slide Images"
                 className="rounded-lg"
               />

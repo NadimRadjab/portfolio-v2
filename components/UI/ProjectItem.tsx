@@ -16,6 +16,7 @@ const ProjectItem = (props: Props) => {
       className="bg-zinc-900 w-full shadow-lg shadow-neutral-700  h-auto rounded-xl cursor-pointer relative flex flex-col justify-center p-3 group hover:bg-gradient-to-r from-[#5651] to-gray-700 "
     >
       <Image
+        placeholder="blur"
         alt={props.alt}
         src={props.image}
         className="rounded-xl group-hover:opacity-10"

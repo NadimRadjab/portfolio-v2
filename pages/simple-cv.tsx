@@ -16,7 +16,7 @@ const SimpleCV = () => {
       <div className="max-w-[1240px] w-full h-full py-10 ">
         <div>
           <div className="w-full h-full grid lg:grid-cols-2 gap-10 grid-cols-1 justify-items-center items-center my-5">
-            <Slider xlWidth="60%" width="40%" sliderData={simpleCVImageData} />
+            <Slider xlWidth="60%" width="50%" sliderData={simpleCVImageData} />
             <Slider
               xlWidth="100%"
               width="80%"

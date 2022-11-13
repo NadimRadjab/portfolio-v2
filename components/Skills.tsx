@@ -12,12 +12,14 @@ import firebase from "../assets/images/Skills/Miscellaneous/firebase.png";
 import git from "../assets/images/Skills/Miscellaneous/git.png";
 import npm from "../assets/images/Skills/Miscellaneous/npm.png";
 import redux from "../assets/images/Skills/Miscellaneous/redux.png";
+import jest from "../assets/images/Skills/Miscellaneous/jest.png";
+import nextjs from "../assets/images/Skills/Front-end/nextjs.png";
 import { useTranslation } from "react-i18next";
 
 const Skills = () => {
   const { t } = useTranslation();
   return (
-    <div className="w-full 2xl:h-screen" id="skills">
+    <div className="w-full " id="skills">
       <div className="max-w-[1240px] mx-auto h-full flex flex-col  overflow-hidden">
         <div
           data-aos="fade-left"
@@ -51,7 +53,6 @@ const Skills = () => {
                 <Image alt="js" src={js} />
                 <p className="text-md text-gray-200">JS</p>
               </div>
-
               <div className="flex flex-col justify-center items-center cursor-pointer transition ease-out duration-500 hover:-translate-y-2 md:w-[85%] w-[50%]">
                 <Image alt="react" src={react} />
                 <p className="text-md text-gray-200">React</p>
@@ -59,6 +60,10 @@ const Skills = () => {
               <div className="flex flex-col justify-center items-center cursor-pointer transition ease-out duration-500 hover:-translate-y-2 md:w-[85%] w-[50%] text-center">
                 <Image alt="reactNative" src={react} />
                 <p className="text-md text-gray-200">React Native</p>
+              </div>
+              <div className="flex flex-col justify-center items-center cursor-pointer transition ease-out duration-500 hover:-translate-y-2 md:w-[85%] w-[50%] text-center">
+                <Image className="te bg-white" alt="reactNative" src={nextjs} />
+                <p className="text-md text-gray-200">Next.Js</p>
               </div>
             </div>
           </div>
@@ -125,6 +130,12 @@ const Skills = () => {
                   <Image alt="firebase" src={firebase} />
                 </div>
                 <p className="text-md text-gray-200">Firebase</p>
+              </div>
+              <div className="flex flex-col justify-center items-center cursor-pointer transition ease-out duration-500 hover:-translate-y-2 md:w-[85%] w-[50%]">
+                <div>
+                  <Image alt="firebase" src={jest} />
+                </div>
+                <p className="text-md text-gray-200">Jest</p>
               </div>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import simpleCV from "../assets/images/simpleCV.png";
+import simpleCV from "../assets/images/Simple CV.png";
 import ptManager from "../assets/images/ptManager.png";
 import simpleInvoice from "../assets/images/simpleInvoice.png";
 import odinBook from "../assets/images/odinbook.png";

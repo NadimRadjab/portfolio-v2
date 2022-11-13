@@ -22,7 +22,7 @@ const Slider = (props: Props) => {
 
   return (
     <div
-      className={`relative 2xl:w-[${props.xlWidth}] w-[${props.width}] flex justify-center items-center bg-zinc-800  shadow-lg shadow-neutral-700  h-auto rounded-xl  p-3 `}
+      className={`relative 2xl:w-[${props.xlWidth}] w-[${props.width}]  flex justify-center items-center bg-zinc-800  shadow-lg shadow-neutral-700  h-auto rounded-xl  p-3 `}
     >
       <FaArrowAltCircleLeft
         onClick={prevSlide}

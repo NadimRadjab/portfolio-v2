@@ -1,7 +1,12 @@
-import simpleCV3 from "../assets/images/SimpleCV/simpleCV3.png";
 import simpleCV1 from "../assets/images/SimpleCV/simpleCV1.png";
 import simpleCV2 from "../assets/images/SimpleCV/simpleCV2.png";
+import simpleCV3 from "../assets/images/SimpleCV/simpleCV3.png";
 import simpleCV4 from "../assets/images/SimpleCV/simpleCV4.png";
+import simpleCVWbiste1 from "../assets/images/SimpleCV/Simple CV1.png";
+import simpleCVWbiste2 from "../assets/images/SimpleCV/Simple CV2.png";
+import simpleCVWbiste3 from "../assets/images/SimpleCV/Simple CV3.png";
+import simpleCVWbiste4 from "../assets/images/SimpleCV/Simple CV4.png";
+import simpleCVWbiste5 from "../assets/images/SimpleCV/Simple CV5.png";
 import pt1 from "../assets/images/PT-Manager/pt1.png";
 import pt2 from "../assets/images/PT-Manager/pt2.png";
 import pt3 from "../assets/images/PT-Manager/pt3.png";
@@ -21,6 +26,13 @@ export const simpleCVImageData = [
   { image: simpleCV1 },
   { image: simpleCV2 },
   { image: simpleCV4 },
+];
+export const simpleCVWebsiteImageData = [
+  { image: simpleCVWbiste1 },
+  { image: simpleCVWbiste2 },
+  { image: simpleCVWbiste3 },
+  { image: simpleCVWbiste4 },
+  { image: simpleCVWbiste5 },
 ];
 
 export const ptManagerImageData = [

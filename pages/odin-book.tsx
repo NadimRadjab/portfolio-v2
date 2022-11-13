@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import Image from "next/image";
 import { useTranslation } from "react-i18next";
 import { AiFillGithub } from "react-icons/ai";
 import Slider from "../components/UI/Slider";
@@ -12,7 +11,7 @@ const OdinBook = () => {
       <div className="max-w-[1240px] w-full h-full ">
         <div className="w-full h-full grid lg:grid-cols-2 gap-10 grid-cols-1 justify-items-center items-center my-5">
           <div className="2xl:max-w-[500px] max-w-[400px] flex justify-center mx-2">
-            <Slider xlWidth="100%" width="80%" sliderData={odinBookImageData} />
+            <Slider xlWidth="100%" width="90%" sliderData={odinBookImageData} />
           </div>
           <div className="lg:text-start text-center flex flex-col items-center lg:block">
             <h2 className="text-4xl mb-10 ">{t("overview")}</h2>
@@ -22,7 +21,7 @@ const OdinBook = () => {
           </div>
           <div className="bg-zinc-900 shadow-lg shadow-neutral-700 md:w-[50%] w-[80%]  h-auto rounded-xl p-3 flex flex-col ">
             <h2 className="text-2xl mb-10 self-center">{t("technologies")}</h2>
-            <ul className="text-white mx-10 text-lg list-disc ">
+            <ul className="text-white mx-10 lg:text-lg list-disc">
               <li>TypeScript</li>
               <li>React</li>
               <li>NodeJS</li>

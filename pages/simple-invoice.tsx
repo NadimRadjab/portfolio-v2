@@ -20,15 +20,16 @@ const SimpleInvoice = () => {
               sliderData={simpleInvoiceImageData}
             />
           </div>
-          <div className="lg:text-start text-center flex flex-col items-center lg:block">
+          <div className="lg:text-start text-center m-2 flex flex-col items-center lg:block">
             <h2 className="text-4xl mb-10 ">{t("overview")}</h2>
-            <p className="lg:text-xl text-lg max-w-[95%]">
+            <p className="lg:text-xl text-md max-w-[95%] tracking-wide">
+              {" "}
               {t("simpleInvoiceText")}
             </p>
           </div>
           <div className="bg-zinc-900 shadow-lg shadow-neutral-700  h-auto rounded-xl justify-center p-3 flex flex-col ">
             <h2 className="text-2xl mb-10 self-center">{t("technologies")}</h2>
-            <ul className="text-white mx-10 text-lg list-disc ">
+            <ul className="text-white mx-10 lg:text-lg list-disc">
               <li>React Native</li>
               <li>TypeScript</li>
               <li>Expo</li>
@@ -36,25 +37,30 @@ const SimpleInvoice = () => {
               <li>Redux</li>
               <li>Firebase</li>
               <li>RevenueCat</li>
+              <li>Jest</li>
             </ul>
           </div>
           <div className="bg-zinc-900 xl:w-[100%]  shadow-lg shadow-neutral-700 place-items-center  h-auto rounded-xl grid grid-cols-2 gap-12 p-10 md:mx-20 mx-2">
             <Link href="https://apps.apple.com/app/simple-invoice-invoice-maker/id1629304943">
-              <Image
-                alt="store-image"
-                className="cursor-pointer lg:hover:opacity-70 active:opacity-70 transition duration-300 ease-in-out"
-                src={appStoreImage}
-              />
+              <div>
+                <Image
+                  alt="store-image"
+                  className="cursor-pointer lg:hover:opacity-70 active:opacity-70 transition duration-300 ease-in-out"
+                  src={appStoreImage}
+                />
+              </div>
             </Link>
             <Link href="https://play.google.com/store/apps/details?id=nr.cop.apps.simple.invoice">
-              <Image
-                alt="store-image"
-                className="cursor-pointer lg:hover:opacity-70 active:opacity-70 transition duration-300 ease-in-out"
-                src={playStoreImage}
-              />
+              <div>
+                <Image
+                  alt="store-image"
+                  className="cursor-pointer lg:hover:opacity-70 active:opacity-70 transition duration-300 ease-in-out"
+                  src={playStoreImage}
+                />
+              </div>
             </Link>
             <div className="flex col-span-2 justify-center items-center w-[100%] md:h-[64px] h-[58px] rounded-xl shadow-lg  shadow-zinc-800 bg-gray-500 mx-4   transition ease-in-out duration-300">
-              <p className="text-lg mx-2">GitHub({t("onRequest")})</p>
+              <p className="lg:text-lg mx-2">GitHub({t("onRequest")})</p>
               <AiFillGithub size={30} />
             </div>
           </div>
